@@ -21,7 +21,9 @@ copy run_analysis.R to your working directory
  Resulting data frame:newdata has dimention 10299, 563
 
 # Step 2 extracting mean and std columns
-	1. use grep command on column names of merged data frame to select column, subject, activity, and colunm names having letters "mean" and "std" in it , my command includes meanFreq also the of resulting data frame:step2data has dimention 10299    81
+	1. use grep command on column names of merged data frame to select columns 
+        subject, activity, and colunm names having letters "mean" and "std" in it ,
+        my command includes meanFreq also. The resulting data frame:step2data has dimension 10299, 81
 
 # Step 3 : 	Uses descriptive activity names to name the activities in the data set
   1. Read activity labels from file "./UCI HAR Dataset/activity_labels.txt"
@@ -39,6 +41,6 @@ copy run_analysis.R to your working directory
 	2. Sort data in order od subject and activity, this was required since data was not appearing in order of subject 1 to 30
 	2. group the data frame by activity and subject
   4. use summarize_all with function mean to get average of all columns and store it in tidydata dataframe
-  5. create txt file from tidydata data frame using write.table
+  5. create txt file from tidydata data frame using write.table()
 
 
