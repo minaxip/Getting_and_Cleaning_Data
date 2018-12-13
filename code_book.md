@@ -1,18 +1,18 @@
-Getting and Cleaning Data
-Week 4 Assignment
-Code book for tidydata uploaded as part 1
+# Getting and Cleaning Data
+# Week 4 Assignment
+#Code book for tidydata uploaded as part 1
 
-==================================================================
+
 Tidy data created using Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 Tidy data : Data set with the average of each Variable for each activity and each subject.
-==================================================================
+
 The data set include following attributes/fields
 Subject: An identifier of the subject/person, who carried out the experiment. 30 volunteers(persons) within an age bracket of 19-48 years, identified as number 1 to 30.
 
 Activity : Each person performed six activities wearing a smartphone (Samsung Galaxy S II) on the waist. The activity labels are : WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
 Variables : 81 variables representing,  Average of mean and standard deviation of Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration and Triaxial Angular velocity from the gyroscope . This was captured using accelerometer and gyroscope embedded in the device (wearing a smartphone (Samsung Galaxy S II) on the waist),  grouped by activity and subject
-==================================================================
+
 Names of each column in tidy data frame
 Column 3 to 81  includes average of  accelerometer and gyroscope 3-axial raw signals (demoted by X, Y and Z in names) , prefix 't' to denote time domain signals and the 'f' to indicate frequency domain signals.
 More explanation can be found in features_info.txt
